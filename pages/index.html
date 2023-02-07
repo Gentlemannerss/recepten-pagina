@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volkorenlasagne met spinazie en linzen</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#Volkorenlasagne">De volkorenlasagne.</a></li>
+            <li><a href="#Ingredienten">Ingredienten</a></li>
+            <li><a href="#Bereiding">Bereiding</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 id="Volkorenlasagne">Volkorenlasagne met spinazie en linzen</h1>
+    <h2>Met makkelijke aanpassingen maak je zet je zó een gezonde lasagne op tafel</h2>
+    <img src="../assets/lasagne-spinazie.jpg" alt="Een foto van heerlijke lasagne met spinazie en linzen."
+         width="800px">
+    <h3 id="Ingredienten">Ingeredienten:</h3>
+    <ul>
+        <li class="Ingredients">1 middelgrote ui</li>
+        <li class="Ingredients">2 tenen knoflook</li>
+        <li class="Ingredients">400 g champignons</li>
+        <li class="Ingredients">2 el milde olijfolie</li>
+        <li class="Ingredients">750 g diepvries fijngesneden spinazie</li>
+        <li class="Ingredients">2 el gedroogde Italiaanse kruiden</li>
+        <li class="Ingredients">200 g zuivelspread light</li>
+        <li class="Ingredients">400 g linzen in blik</li>
+        <li class="Ingredients">12 volkoren lasagne bladen</li>
+        <li class="Ingredients">150 g geraspte 30+ kaas</li>
+    </ul>
+    <h3>Uitgelichte ingredienten:</h3>
+    <img src="../assets/spinazie.png" alt="Foto van spinazie" width="300px">
+    <p>Spinazie is erg gezond</p>
+    <img src="../assets/kaas.jpeg" alt="Foto van kaas" width="300px">
+    <p>Kaas is vooral erg lekker</p>
+    <p>Klik <a href="/pages/voedingswaarden.html">Hier</a> voor de voedingswaarden.</p>
+    <h3 id="Bereiding">Bereiden</h3>
+    <ol>
+        <li> Verwarm de oven voor op 180°C</li>
+        <li>Snijd de volgende ingredienten:
+            <ul>
+                <li>Snipper de ui.</li>
+                <li>Snijd de knoflook fijn.</li>
+                <li>Snijd de champignons in plakjes.</li>
+            </ul>
+        <li>Verhit de olie in een hapjespan en bak de ui en champignons 3 min. op hoog vuur. Voeg de knoflook, spinazie
+            en Italiaanse kruiden toe en verwarm 7 min. op middelhoog vuur mee. Roer regelmatig.
+        </li>
+        <li>Voeg de zuivelspread toe en verwarm 1 min. mee. Breng de groentesaus op smaak met peper en eventueel zout.
+            Doe ondertussen de linzen in een vergiet en spoel af onder koud stromend water. Laat uitlekken en voeg toe
+            aan de groentesaus.
+        </li>
+        <li>Schep 2 lepels groentesaus op de bodem van de ovenschaal. Bedek achtereenvolgens met ⅓ van de lasagnebladen,
+            ⅓ van de rest van de groentesaus en de kaas. Herhaal dit nog 2 keer en eindig met de rest van de kaas. Breng
+            op smaak met peper.
+        </li>
+        <li>Bak de lasagne in het midden van de oven in ca. 40 min. gaar. Dek af met aluminiumfolie als de lasagne te
+            donker wordt.
+        </li>
+    </ol>
+    Bereidingstip: Je kunt de lasagne 1 dag van tevoren maken tot en met het afbakken in de oven. Bewaar afgedekt in de
+    koelkast en laat tijdens het voorverwarmen van de oven op kamertemperatuur komen.
+    <h3>Bedankt voor het lezen van dit recept. Laat ons weten wat je ervan vind</h3>
+    <form onsubmit="hier-hebben-we-js-voor-nodig" id="form">
+        <fieldset>
+            <legend>Gegevens</legend>
+            <label for="name-field">Naam:</label>
+            <input type="text" id="name-field" name="name"/>
+            <p></p> <!--dit is om de spacing goed te krijgen tussen naam en email-->
+            <label for="email-field">Email:</label>
+            <input type="text" id="email-field" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Jouw review:</legend>
+            <span>Hoe heb je dit recept gevonden?</span>
+            <select name="how-did-you-find">
+                <option value="Internet">Internet</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Mail">Mail</option>
+                <option value="Anders">Anders</option>
+            </select>
+            <p>Zou je dit recept willen uitproberen?</p>
+            <input type="radio" id="Choice1" name="uitproberen" value="Nee"/>
+            <label for="Choice1">Nee</label>
+            <input type="radio" id="Choice2" name="uitproberen" value="Ja"/>
+            <label for="Choice2">Ja</label>
+            <input type="radio" id="Choice3" name="uitproberen" value="Misschien"/>
+            <label for="Choice3">Misschien</label>
+            <p></p> <!--dit is om de spacing goed te krijgen tussen naam en email-->
+            <label for="opmerkingen:">Opmerkingen:</label>
+            <textarea id="opmerkingen:" name="opmerkingen" rows="4" cols="250"
+                      placeholder="Wat vond je van het Recept"></textarea>
+            <p></p> <!--dit is om de spacing goed te krijgen tussen naam en email-->
+            <input type="checkbox" id="nieuwsbrief" checked>
+            <label for="nieuwsbrief">Schrijf me in voor de nieuwsbrief.</label>
+            <p></p> <!--dit is om de spacing goed te krijgen tussen naam en email-->
+            <button type="submit">Verzenden</button>
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <p>Want to contact us, <a href="contacts.html">Klik hier!</a></p>
+</footer>
+</body>
+</html>
